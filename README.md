@@ -7,7 +7,7 @@
 npm i mpvue-wemark
 ```
 
-详细使用参数可以参考[wemark](https://github.com/TooBug/wemark)
+
 ```vue
 <template>
   <div>
@@ -16,7 +16,7 @@ npm i mpvue-wemark
 </template>
 
 <script>
-import wemark  from "@/components/wemark";
+import wemark  from "mpvue-wemark";
 export default {
   data() {
     return {

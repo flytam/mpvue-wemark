@@ -1,5 +1,7 @@
 ## wemark的mpvue的适配版本
 
+在mpvue中进行markdown的解析
+
 [wemark](https://github.com/TooBug/wemark)作者链接
 
 #### 使用方法

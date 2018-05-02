@@ -1,6 +1,6 @@
 {
   "name": "mpvue-wemark",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Wemark library adapted for mpvue",
   "main": "src/wemark.vue",
   "scripts": {

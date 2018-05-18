@@ -1,7 +1,7 @@
 {
   "name": "mpvue-wemark",
-  "version": "1.1.0",
-  "description": "Wemark library adapted for mpvue",
+  "version": "1.1.1",
+  "description": "wemark的mpvue版本，用来实现在mpvue中写小程序渲染markdown的内容",
   "main": "src/wemark.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

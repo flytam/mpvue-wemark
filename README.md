@@ -32,7 +32,7 @@ npm i mpvue-wemark
 ```vue
 <template>
   <div>
-    <wemark :mdData='mdData'/>
+    <wemark :mdData='mdData' customStyle='background-color:white;'/>
   </div>
 </template>
 
@@ -55,6 +55,11 @@ export default {
 </script>
 
 ```
+
+#### 更新记录
+
+v1.1.2 添加自定义样式 传入customStyle属性，按照mpvue的支持写法。修复# 输入的报错
+
 #### 感谢
 
 [感谢原作者支持](https://github.com/TooBug)

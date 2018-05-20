@@ -1,5 +1,5 @@
 <template>
-<div class="wemark_wrapper">
+<div class="wemark_wrapper" :style='customStyle'>
 <div v-for="(renderBlock,blockIndex) in wemark.renderList" :key="blockIndex">
 	<div :class='renderBlock.type'>
 		<div v-if="renderBlock.isArray" v-for="(renderInline,inlineIndex) in renderBlock.content" :key="inlineIndex">
@@ -18,7 +18,8 @@
 import parse from "./parse";
 export default {
   props: {
-    mdData: String
+    mdData: String,
+    customStyle: [String,Object]
   },
   data() {
     return { wemark: {} };

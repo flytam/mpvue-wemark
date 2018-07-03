@@ -21,7 +21,7 @@
 
 在mpvue中进行markdown的解析
 
-[wemark](https://github.com/TooBug/wemark)作者链接
+[原库wemark](https://github.com/TooBug/wemark)
 
 #### 使用方法
 ```
@@ -62,7 +62,7 @@ v1.1.2 添加自定义样式 传入customStyle属性，按照mpvue的支持写�
 
 #### 感谢
 
-[感谢原作者支持](https://github.com/TooBug)
+[感谢原作者toobug的支持](https://github.com/TooBug)
 
 #### LICENSE
 MIT

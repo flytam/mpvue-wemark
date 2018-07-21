@@ -21,7 +21,7 @@
 
 在 mpvue 中进行 markdown 的解析
 
-[wemark](https://github.com/TooBug/wemark)作者链接
+[原库 wemark](https://github.com/TooBug/wemark)
 
 **本库不再维护**。wemark 2.0 作者重构后已支持在 mpvue 中进行使用.详情请看原库。当然如果你想通过 npm 便捷使用也可以使用本库的。
 
@@ -62,7 +62,7 @@ v1.1.2 添加自定义样式 传入 customStyle 属性，按照 mpvue 的支持�
 
 #### 感谢
 
-[感谢原作者支持](https://github.com/TooBug)
+[感谢原作者 toobug 的支持](https://github.com/TooBug)
 
 #### LICENSE
 

@@ -1,4 +1,4 @@
-## wemark的mpvue的适配版本
+## wemark 的 mpvue 的适配版本
 
 [![NPM version][npm-image]][npm-url]
 [![David deps][david-image]][david-url]
@@ -19,15 +19,17 @@
 [download-url]: https://npmjs.org/package/mpvue-wemark
 [license-image]: https://img.shields.io/npm/l/mpvue-wemark.svg
 
-在mpvue中进行markdown的解析
+在 mpvue 中进行 markdown 的解析
 
 [wemark](https://github.com/TooBug/wemark)作者链接
 
+**本库不再维护**。wemark 2.0 作者重构后已支持在 mpvue 中进行使用.详情请看原库。当然如果你想通过 npm 便捷使用也可以使用本库的。
+
 #### 使用方法
+
 ```
 npm i mpvue-wemark
 ```
-
 
 ```vue
 <template>
@@ -37,32 +39,31 @@ npm i mpvue-wemark
 </template>
 
 <script>
-import wemark  from "mpvue-wemark";
+import wemark from "mpvue-wemark";
 export default {
   data() {
     return {
-      mdData: ''
+      mdData: ""
     };
   },
   components: {
     wemark
   },
   mounted() {
-     this.mdData = "## hello, world";
-
+    this.mdData = "## hello, world";
   }
 };
 </script>
-
 ```
 
 #### 更新记录
 
-v1.1.2 添加自定义样式 传入customStyle属性，按照mpvue的支持写法。修复# 输入的报错
+v1.1.2 添加自定义样式 传入 customStyle 属性，按照 mpvue 的支持写法。修复# 输入的报错
 
 #### 感谢
 
 [感谢原作者支持](https://github.com/TooBug)
 
 #### LICENSE
+
 MIT
